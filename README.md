@@ -57,8 +57,3 @@ https://github.com/Prajith44/Kutira-Kushala
 
 The main objective of Kutira-Kushala is to support rural artisans and small-scale craftsmen by providing a digital marketplace where they can directly connect with buyers, sell handmade products, and manage business operations efficiently.
 
----
-
-## Developer
-
-Developed by Prajith
