@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#1F5D57</color>
+    <color name="primary_green_light">#2A7A71</color>
+    <color name="bg_light">#F5F6F8</color>
+    <color name="bg_dark">#121212</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="card_dark">#1E1E1E</color>
+    <color name="input_light">#EDEFF2</color>
+    <color name="input_dark">#2C2C2C</color>
+    <color name="text_primary_light">#1A1A1A</color>
+    <color name="text_primary_dark">#F5F6F8</color>
+    <color name="text_secondary_light">#6B7280</color>
+    <color name="text_secondary_dark">#9CA3AF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="nav_item_color_light">#6B7280</color>
+    <color name="nav_item_color_dark">#9CA3AF</color>
+    <color name="shimmer_placeholder">#E0E0E0</color>
+</resources>

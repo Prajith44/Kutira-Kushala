@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F6F8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_header_bg"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Request Bulk Order"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <EditText
+                    android:id="@+id/et_bulk_buyer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@drawable/input_background"
+                    android:hint="Your Name"
+                    android:inputType="textPersonName"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <EditText
+                    android:id="@+id/et_bulk_buyer_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_background"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <EditText
+                    android:id="@+id/et_bulk_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_background"
+                    android:hint="Quantity required"
+                    android:inputType="number"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <EditText
+                    android:id="@+id/et_bulk_deadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_background"
+                    android:hint="Delivery deadline (e.g. 15 Oct)"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <EditText
+                    android:id="@+id/et_bulk_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_background"
+                    android:gravity="top"
+                    android:hint="Delivery Address"
+                    android:inputType="textMultiLine"
+                    android:padding="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <EditText
+                    android:id="@+id/et_bulk_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_background"
+                    android:gravity="top"
+                    android:hint="Requirements / Message"
+                    android:inputType="textMultiLine"
+                    android:padding="16dp"
+                    android:textColor="#1A1A1A"
+                    android:textColorHint="#6B7280" />
+
+                <Button
+                    android:id="@+id/btn_send_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/button_background"
+                    android:text="SEND REQUEST"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_cancel_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/outline_button_bg"
+                    android:text="CANCEL"
+                    android:textColor="#6B7280"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.cardview.widget.CardView>
